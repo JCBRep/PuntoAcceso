@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!--
     <Button
         android:id="@+id/PA"
         android:layout_width="wrap_content"
@@ -18,21 +19,5 @@
         app:layout_constraintVertical_bias="0.16000003"
         android:onClick="levantarPA"
         />
-
-    <Button
-        android:id="@+id/Bateria"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="166dp"
-        android:layout_marginLeft="166dp"
-        android:layout_marginTop="63dp"
-        android:layout_marginEnd="157dp"
-        android:layout_marginRight="157dp"
-        android:text="Comprobar Batería"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PA"
-        android:onClick="comprobarBateria"
-        />
-
+    -->
 </androidx.constraintlayout.widget.ConstraintLayout>
